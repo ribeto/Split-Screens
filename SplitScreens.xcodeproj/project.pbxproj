@@ -1,0 +1,272 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C55153D9147BEB08000432DF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55153D8147BEB08000432DF /* UIKit.framework */; };
+		C55153DB147BEB08000432DF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55153DA147BEB08000432DF /* Foundation.framework */; };
+		C55153DD147BEB08000432DF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C55153DC147BEB08000432DF /* CoreGraphics.framework */; };
+		C55153E3147BEB08000432DF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C55153E1147BEB08000432DF /* InfoPlist.strings */; };
+		C55153E5147BEB08000432DF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C55153E4147BEB08000432DF /* main.m */; };
+		C55153E9147BEB08000432DF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C55153E8147BEB08000432DF /* AppDelegate.m */; };
+		C55153F5147BEC94000432DF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C55153F4147BEC94000432DF /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C55153D4147BEB08000432DF /* SplitScreens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplitScreens.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C55153D8147BEB08000432DF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C55153DA147BEB08000432DF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C55153DC147BEB08000432DF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C55153E0147BEB08000432DF /* SplitScreens-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SplitScreens-Info.plist"; sourceTree = "<group>"; };
+		C55153E2147BEB08000432DF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C55153E4147BEB08000432DF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C55153E6147BEB08000432DF /* SplitScreens-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SplitScreens-Prefix.pch"; sourceTree = "<group>"; };
+		C55153E7147BEB08000432DF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C55153E8147BEB08000432DF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C55153F3147BEC94000432DF /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		C55153F4147BEC94000432DF /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C55153D1147BEB08000432DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55153D9147BEB08000432DF /* UIKit.framework in Frameworks */,
+				C55153DB147BEB08000432DF /* Foundation.framework in Frameworks */,
+				C55153DD147BEB08000432DF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C55153C9147BEB08000432DF = {
+			isa = PBXGroup;
+			children = (
+				C55153DE147BEB08000432DF /* SplitScreens */,
+				C55153D7147BEB08000432DF /* Frameworks */,
+				C55153D5147BEB08000432DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C55153D5147BEB08000432DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C55153D4147BEB08000432DF /* SplitScreens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C55153D7147BEB08000432DF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C55153D8147BEB08000432DF /* UIKit.framework */,
+				C55153DA147BEB08000432DF /* Foundation.framework */,
+				C55153DC147BEB08000432DF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C55153DE147BEB08000432DF /* SplitScreens */ = {
+			isa = PBXGroup;
+			children = (
+				C55153E7147BEB08000432DF /* AppDelegate.h */,
+				C55153E8147BEB08000432DF /* AppDelegate.m */,
+				C55153F3147BEC94000432DF /* RootViewController.h */,
+				C55153F4147BEC94000432DF /* RootViewController.m */,
+				C55153DF147BEB08000432DF /* Supporting Files */,
+			);
+			path = SplitScreens;
+			sourceTree = "<group>";
+		};
+		C55153DF147BEB08000432DF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C55153E0147BEB08000432DF /* SplitScreens-Info.plist */,
+				C55153E1147BEB08000432DF /* InfoPlist.strings */,
+				C55153E4147BEB08000432DF /* main.m */,
+				C55153E6147BEB08000432DF /* SplitScreens-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C55153D3147BEB08000432DF /* SplitScreens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C55153EC147BEB08000432DF /* Build configuration list for PBXNativeTarget "SplitScreens" */;
+			buildPhases = (
+				C55153D0147BEB08000432DF /* Sources */,
+				C55153D1147BEB08000432DF /* Frameworks */,
+				C55153D2147BEB08000432DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplitScreens;
+			productName = SplitScreens;
+			productReference = C55153D4147BEB08000432DF /* SplitScreens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C55153CB147BEB08000432DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = C55153CE147BEB08000432DF /* Build configuration list for PBXProject "SplitScreens" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C55153C9147BEB08000432DF;
+			productRefGroup = C55153D5147BEB08000432DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C55153D3147BEB08000432DF /* SplitScreens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C55153D2147BEB08000432DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55153E3147BEB08000432DF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C55153D0147BEB08000432DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C55153E5147BEB08000432DF /* main.m in Sources */,
+				C55153E9147BEB08000432DF /* AppDelegate.m in Sources */,
+				C55153F5147BEC94000432DF /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C55153E1147BEB08000432DF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C55153E2147BEB08000432DF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C55153EA147BEB08000432DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C55153EB147BEB08000432DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C55153ED147BEB08000432DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SplitScreens/SplitScreens-Prefix.pch";
+				INFOPLIST_FILE = "SplitScreens/SplitScreens-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C55153EE147BEB08000432DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SplitScreens/SplitScreens-Prefix.pch";
+				INFOPLIST_FILE = "SplitScreens/SplitScreens-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C55153CE147BEB08000432DF /* Build configuration list for PBXProject "SplitScreens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55153EA147BEB08000432DF /* Debug */,
+				C55153EB147BEB08000432DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C55153EC147BEB08000432DF /* Build configuration list for PBXNativeTarget "SplitScreens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C55153ED147BEB08000432DF /* Debug */,
+				C55153EE147BEB08000432DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C55153CB147BEB08000432DF /* Project object */;
+}
