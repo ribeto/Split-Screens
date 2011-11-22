@@ -10,10 +10,13 @@ By default airplay mirroring will just mirror you screens. Setting up a separate
 
 ## Screenshots
 
-Device Only
+
+#### Device Only
+
 ![Device Only](https://github.com/ribeto/Split-Screens/raw/master/readmeImages/deviceOnly.png)
 
-Device With External Screen Connected
+#### Device With External Screen Connected
+
 ![Device With Screen](https://github.com/ribeto/Split-Screens/raw/master/readmeImages/deviceWithExternalConnected.png)  ![External Screen](https://github.com/ribeto/Split-Screens/raw/master/readmeImages/externalDisplay.png)
 
 
