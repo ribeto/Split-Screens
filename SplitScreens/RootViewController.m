@@ -115,10 +115,10 @@
   if( [[UIScreen screens] count] == 1 ) {
     [mainLabel removeFromSuperview];
     float labelHeight = CGRectGetHeight([mainLabel frame]);
-    [mainLabel setFrame:CGRectMake(0, 
-                                   CGRectGetHeight([[self view] frame])-2*labelHeight, 
-                                   CGRectGetWidth([[self view] frame]), 
-                                   labelHeight)];
+    
+    CGRect frame = [subLabel frame];
+    frame.origin.y -=labelHeight;
+    [mainLabel setFrame:frame];
     
     [[self view] addSubview:mainLabel];
   
